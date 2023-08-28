@@ -1,13 +1,13 @@
 ![TCP dan UDP](./assets/tcp-udp-comparison-diagram-2.jpg)
 
 - # __PENGERTIAN__
-#### _~ FTP (File Transfer Protocol)_
+#### ~ FTP (File Transfer Protocol)
 ##### FTP adalah protokol yang digunakan untuk mentransfer file antara perangkat dalam jaringan. Ini memungkinkan pengguna untuk mengunggah (upload) dan mengunduh (download) file dari server ke klien dan sebaliknya. FTP dirancang dengan tujuan untuk mentransfer file dengan aman dan efisien. Protokol ini memiliki aturan dan komando tertentu yang mengatur cara berinteraksi dengan server FTP. FTP sendiri tidak mengatur secara khusus bagaimana data fisik dikirim, tetapi lebih berkaitan dengan perintah dan manajemen file.
 #
-#### _~ TCP (Transmission Control Protocol)_
+#### ~ TCP (Transmission Control Protocol)
 ##### TCP adalah protokol yang berfokus pada pengiriman data yang andal dan dijamin dalam jaringan. Protokol ini memastikan bahwa paket-paket data dikirimkan dengan benar, dalam urutan yang tepat, dan tanpa kehilangan. TCP menggunakan pendekatan yang lebih lambat dan lebih terkontrol untuk transfer data, karena protokol ini memerlukan konfirmasi pengiriman dan penanganan ulang paket-paket yang hilang atau rusak. Itu membuatnya cocok untuk aplikasi yang memerlukan keandalan, seperti transfer file atau laman web.
 #
-#### _~ UDP (User Datagram Protocol)_
+#### ~ UDP (User Datagram Protocol)
 ##### UDP adalah protokol yang lebih sederhana dan lebih cepat dibandingkan dengan TCP. Ini dirancang untuk mentransfer data dengan sedikit overhead (beban tambahan) dan tanpa kebutuhan akan konfirmasi pengiriman atau penanganan ulang paket. Karena ini, UDP cocok untuk aplikasi yang membutuhkan kecepatan dan efisiensi lebih tinggi daripada keandalan mutlak. Contoh penggunaan UDP adalah streaming video dan game online.
 #
 #
