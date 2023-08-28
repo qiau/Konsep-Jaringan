@@ -52,4 +52,3 @@ Lapisan ini adalah lapisan tertinggi dan berisi aplikasi dan layanan yang diguna
 | Session | Lapisan sesi mengelola pembentukan, pemeliharaan, dan pengakhiran sesi komunikasi antara aplikasi pengirim dan penerima. |
 | Presentation | Data di lapisan presentasi didekripsi atau dikompresi sesuai kebutuhan.|
 | Application | Data yang telah diolah dan didekode sampai ke bentuk asli dikirimkan ke aplikasi penerima, yang kemudian dapat mengambil tindakan yang sesuai berdasarkan data tersebut. |
-
