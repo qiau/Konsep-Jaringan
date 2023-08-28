@@ -3,9 +3,6 @@
 - # __PENGERTIAN__
 ##### Three-way handshake adalah proses tiga langkah yang digunakan oleh protokol TCP (Transmission Control Protocol) untuk memulai koneksi antara dua perangkat dalam jaringan komputer. Tujuan dari tiga langkah ini adalah untuk memastikan bahwa pengirim dan penerima siap untuk berkomunikasi dan untuk memastikan bahwa koneksi awal berjalan dengan lancar. Tiga langkah ini melibatkan pengiriman tiga pesan secara berurutan antara pengirim dan penerima.
 
-#
-#
-#
 1. First Step (SYN):
 Pengirim mengirimkan pesan SYN (synchronize) ke penerima. Ini adalah permintaan untuk memulai koneksi dan mencakup nomor urut acak sebagai "nomor urut awal". Pesan ini mengindikasikan niat pengirim untuk berkomunikasi.
 
