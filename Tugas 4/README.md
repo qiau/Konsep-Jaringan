@@ -12,6 +12,8 @@
 #
 #
 #
+![Perbandingan TCP UDP](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/tcp%20udp%20animasi.jpg)
+
 - # Mengapa Dalam Satu Port FTP Terdapat Dua Protokol TCP dan UDP?
 Pada dasarnya tidak ada satu port tunggal yang secara resmi ditetapkan untuk menggunakan baik TCP maupun UDP. Biasanya, protokol FTP lebih cenderung menggunakan TCP karena sifatnya yang memerlukan keandalan tinggi dan pengendalian. Namun, ada beberapa situasi di mana komunikasi dengan protokol FTP bisa melibatkan penggunaan UDP.
 1. FTP Lebih Cocok dengan TCP:
