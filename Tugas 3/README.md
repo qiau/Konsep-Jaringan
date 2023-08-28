@@ -1,18 +1,4 @@
-![TCP dan UDP](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/tcp-udp-comparison-diagram-2.jpg)
-
-- # __PENGERTIAN__
-#### ~ FTP (File Transfer Protocol)
-##### FTP adalah protokol yang digunakan untuk mentransfer file antara perangkat dalam jaringan. Ini memungkinkan pengguna untuk mengunggah (upload) dan mengunduh (download) file dari server ke klien dan sebaliknya. FTP dirancang dengan tujuan untuk mentransfer file dengan aman dan efisien. Protokol ini memiliki aturan dan komando tertentu yang mengatur cara berinteraksi dengan server FTP. FTP sendiri tidak mengatur secara khusus bagaimana data fisik dikirim, tetapi lebih berkaitan dengan perintah dan manajemen file.
-#
-#### ~ TCP (Transmission Control Protocol)
-##### TCP adalah protokol yang berfokus pada pengiriman data yang andal dan dijamin dalam jaringan. Protokol ini memastikan bahwa paket-paket data dikirimkan dengan benar, dalam urutan yang tepat, dan tanpa kehilangan. TCP menggunakan pendekatan yang lebih lambat dan lebih terkontrol untuk transfer data, karena protokol ini memerlukan konfirmasi pengiriman dan penanganan ulang paket-paket yang hilang atau rusak. Itu membuatnya cocok untuk aplikasi yang memerlukan keandalan, seperti transfer file atau laman web.
-#
-#### ~ UDP (User Datagram Protocol)
-##### UDP adalah protokol yang lebih sederhana dan lebih cepat dibandingkan dengan TCP. Ini dirancang untuk mentransfer data dengan sedikit overhead (beban tambahan) dan tanpa kebutuhan akan konfirmasi pengiriman atau penanganan ulang paket. Karena ini, UDP cocok untuk aplikasi yang membutuhkan kecepatan dan efisiensi lebih tinggi daripada keandalan mutlak. Contoh penggunaan UDP adalah streaming video dan game online.
-#
-#
-#
-- # Mengapa Dalam Satu Port FTP Terdapat Dua Protokol TCP dan UDP?
+ Mengapa Dalam Satu Port FTP Terdapat Dua Protokol TCP dan UDP?
 Pada dasarnya tidak ada satu port tunggal yang secara resmi ditetapkan untuk menggunakan baik TCP maupun UDP. Biasanya, protokol FTP lebih cenderung menggunakan TCP karena sifatnya yang memerlukan keandalan tinggi dan pengendalian. Namun, ada beberapa situasi di mana komunikasi dengan protokol FTP bisa melibatkan penggunaan UDP.
 1. FTP Lebih Cocok dengan TCP:
 FTP umumnya menggunakan TCP karena sifatnya yang memerlukan transfer file yang andal dan terkendali. TCP memastikan data dikirim dan diterima dengan benar serta dalam urutan yang tepat.
