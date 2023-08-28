@@ -1,4 +1,4 @@
-![TCP dan UDP](./assets/tcp-udp-comparison-diagram-2.jpg)
+![TCP dan UDP](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/tcp-udp-comparison-diagram-2.jpg)
 
 - # __PENGERTIAN__
 #### ~ FTP (File Transfer Protocol)
