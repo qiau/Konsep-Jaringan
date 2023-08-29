@@ -1,2 +1,0 @@
-pada lslldl
-sjdjjsjjjd
