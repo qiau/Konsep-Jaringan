@@ -1,5 +1,5 @@
 - # __Analisis Flow Graph__
-##### Flowgraph adalah tampilan visual yang menggambarkan alur atau hubungan antara paket-paket dalam komunikasi jaringan. Tampilan ini memungkinkan untuk melihat bagaimana paket-paket berinteraksi satu sama lain dalam sesi komunikasi tertentu.
+#### Flowgraph adalah tampilan visual yang menggambarkan alur atau hubungan antara paket-paket dalam komunikasi jaringan. Tampilan ini memungkinkan untuk melihat bagaimana paket-paket berinteraksi satu sama lain dalam sesi komunikasi tertentu.
 #
 ![Flow Graph](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/Flowgraph.png)
 
