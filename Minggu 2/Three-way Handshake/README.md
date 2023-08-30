@@ -1,6 +1,6 @@
 ![three-way handshake](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/applsci-06-00358-g001-550.jpg)
 
-- # __PENGERTIAN__
+- # __Three-way Handshake__
 ##### Three-way handshake adalah proses tiga langkah yang digunakan oleh protokol TCP (Transmission Control Protocol) untuk memulai koneksi antara dua perangkat dalam jaringan komputer. Tujuan dari tiga langkah ini adalah untuk memastikan bahwa pengirim dan penerima siap untuk berkomunikasi dan untuk memastikan bahwa koneksi awal berjalan dengan lancar. Tiga langkah ini melibatkan pengiriman tiga pesan secara berurutan antara pengirim dan penerima.
 
 1. First Step (SYN):
