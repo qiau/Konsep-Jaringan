@@ -13,7 +13,11 @@
 #
 ### 5. Berikut adalah hasil gambar dari tiap frame
 ![jpeg](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/pic61.png)
+#
 ![jpeg](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/pic72.png)
+#
 ![jpeg](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/pic259.png)
+#
 ![jpeg](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/pic269.png)
+#
 ![jpeg](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/pic479.png)
