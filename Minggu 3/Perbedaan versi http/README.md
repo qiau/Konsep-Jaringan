@@ -108,4 +108,5 @@
         <td>Ada</td>
     </tr>
   </table>
+![Beda Versi HTTP](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/WhatsApp%20Image%202023-09-04%20at%201.47.06%20PM.jpeg)
 
