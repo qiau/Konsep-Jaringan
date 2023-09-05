@@ -1,5 +1,6 @@
 - # __Pengertian HTTP__
 #### HTTP (Hypertext Transfer Protocol) adalah protokol yang digunakan untuk mentransfer data di World Wide Web. HTTP pertama kali dikembangkan oleh Tim Berners-Lee pada tahun 1989 dan telah mengalami beberapa evolusi sejak saat itu.
+#
 - # __Perkembangan Versi HTTP__
 ### 1. HTTP 0.9
 #### HTTP 0.9 adalah versi pertama HTTP, yang dirilis pada tahun 1991. Versi ini sangat sederhana dan hanya mendukung metode GET untuk meminta sumber daya. HTTP 0.9 tidak mendukung header, yang merupakan informasi tambahan yang dapat digunakan untuk mengontrol perilaku permintaan dan respons.
@@ -17,6 +18,7 @@
 - #### Framed communication: HTTP 2 menggunakan komunikasi berbasis frame, yang lebih efisien daripada komunikasi berbasis teks yang digunakan oleh HTTP 1.1.
 ### 5. HTTP 3
 #### HTTP 3 adalah versi terbaru HTTP, yang dirilis pada tahun 2018. Versi ini menggunakan protokol QUIC (Quick UDP Internet Connection) untuk meningkatkan kinerja dan keamanan. QUIC adalah protokol transport yang lebih efisien daripada TCP, yang digunakan oleh HTTP 1.1 dan HTTP 2. QUIC juga lebih aman daripada TCP, karena menggunakan enkripsi secara default.
+#
 - # __Perbedaan Tiap Versi HTTP__
 <table>
     <tr>
@@ -108,5 +110,6 @@
         <td>Ada</td>
     </tr>
   </table>
+  
 ![Beda Versi HTTP](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/WhatsApp%20Image%202023-09-04%20at%201.47.06%20PM.jpeg)
 
