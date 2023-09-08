@@ -9,9 +9,9 @@
 #### Socket server adalah komponen yang mendengarkan dan menunggu koneksi dari client. Ketika ada permintaan koneksi dari client, server socket akan menerima koneksi dan memungkinkan komunikasi dua arah antara server dan client.
 #### Socket digunakan dalam berbagai protokol jaringan, seperti TCP (Transmission Control Protocol) dan UDP (User Datagram Protocol), untuk mengirim data antara perangkat dalam jaringan. Protokol ini memastikan bahwa data yang dikirimkan dapat diterima dengan benar dan dalam urutan yang tepat (TCP), atau memungkinkan pengiriman data yang lebih cepat tetapi tanpa jaminan pengiriman yang benar (UDP).
 - # __Run Program__
-### 1. Buka terminal dan navigasi ke folder file socket.
-### 2. Compile dan run file server.c
-### 3. Buka halaman terminal baru atau komputer lain, lalu compile dan run file client.c
-### 4. Ketik pada terminal client.c dan akan keluar pada terminal server.c (dengan menambahkan kode inputan dari server.c, kita dapat berkomunikasi antar client dan server).
+#### 1. Buka terminal dan navigasi ke folder file socket.
+#### 2. Compile dan run file server.c
+#### 3. Buka halaman terminal baru atau komputer lain, lalu compile dan run file client.c
+#### 4. Ketik pada terminal client.c dan akan keluar pada terminal server.c (dengan menambahkan kode inputan dari server.c, kita dapat berkomunikasi antar client dan server).
 - # __Output__
 ![output](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/WhatsApp%20Image%202023-09-08%20at%206.21.21%20PM.jpeg)
