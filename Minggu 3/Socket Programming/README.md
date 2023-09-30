@@ -15,3 +15,4 @@
 #### 4. Ketik pada terminal client.c dan akan keluar pada terminal server.c (dengan menambahkan kode inputan dari server.c, kita dapat berkomunikasi antar client dan server).
 - # __Output__
 ![output](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/WhatsApp%20Image%202023-09-08%20at%206.21.21%20PM.jpeg)
+
