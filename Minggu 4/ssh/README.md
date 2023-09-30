@@ -7,8 +7,8 @@
 #### RFC (Request for Comments) yang menggambarkan protokol SSH adalah RFC 4251 hingga RFC 4254. RFC-nya mencakup berbagai aspek protokol, termasuk spesifikasi teknis dan detail implementasi.
 
 - # _Versi_
-### - SSH-1: Adalah versi asli dari SSH dan dijelaskan dalam RFC 4251 hingga RFC 4254. Versi ini memiliki beberapa kerentanannya dan sebaiknya tidak digunakan lagi karena sudah tidak aman.
-### - SSH-2: Adalah versi yang lebih baru dan aman dari SSH, yang dijelaskan dalam RFC 4251 hingga RFC 4254. SSH-2 memiliki peningkatan keamanan dan dukungan yang lebih baik untuk berbagai fitur.
+#### - (SSH-1) Adalah versi asli dari SSH dan dijelaskan dalam RFC 4251 hingga RFC 4254. Versi ini memiliki beberapa kerentanannya dan sebaiknya tidak digunakan lagi karena sudah tidak aman.
+#### - (SSH-2) Adalah versi yang lebih baru dan aman dari SSH, yang dijelaskan dalam RFC 4251 hingga RFC 4254. SSH-2 memiliki peningkatan keamanan dan dukungan yang lebih baik untuk berbagai fitur.
 
 - # _Karakteristik_
 ### 1. Keamanan
