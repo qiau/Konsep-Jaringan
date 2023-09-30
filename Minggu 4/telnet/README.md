@@ -6,7 +6,7 @@
 #### RFC (Request for Comments) adalah serangkaian dokumen yang digunakan untuk menggambarkan protokol dan standar di internet. Telnet awalnya dijelaskan dalam RFC 854, yang kemudian diperbarui oleh RFC 855, RFC 856, dan RFC 857. RFC terbaru yang terkait dengan Telnet adalah RFC 854, yang diterbitkan pada tahun 1983. Namun, penggunaan Telnet telah menurun seiring waktu karena kurangnya keamanan, dan protokol pengganti yang lebih aman seperti SSH telah menjadi lebih populer.
 
 - # _Flowgraph_
-### Telnet adalah protokol jaringan yang berbasis TCP (Transmission Control Protocol), sehingga alur atau "flow" dari koneksi Telnet mengikuti model dasar yang sama dengan alur koneksi TCP pada umumnya.
+#### Telnet adalah protokol jaringan yang berbasis TCP (Transmission Control Protocol), sehingga alur atau "flow" dari koneksi Telnet mengikuti model dasar yang sama dengan alur koneksi TCP pada umumnya.
 ![Telnet flowgraph](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/telnetflowgraph.png)
 ##### 1. Pengguna memulai koneksi Telnet dengan mengirimkan permintaan koneksi (SYN) ke server Telnet.
 ##### 2. Klien Telnet mengirimkan data ke server, seperti permintaan autentikasi (nama pengguna dan kata sandi).
