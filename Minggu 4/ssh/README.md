@@ -1,4 +1,4 @@
-![apa itu SSH](https://1.bp.blogspot.com/-48bQ5f-tiR4/WdzFwDKHaeI/AAAAAAAAAfI/Ydc8qtH2gDgL2_YFB05w915b5xlVmfcEwCLcBGAs/s1600/Cara%2BKerja%2BSSH.png)
+![apa itu SSH ](https://1.bp.blogspot.com/-48bQ5f-tiR4/WdzFwDKHaeI/AAAAAAAAAfI/Ydc8qtH2gDgL2_YFB05w915b5xlVmfcEwCLcBGAs/s1600/Cara%2BKerja%2BSSH.png)
 - # _Pengertian SSH_
 #### SSH adalah protokol keamanan yang digunakan untuk mengamankan komunikasi jaringan, terutama dalam konteks akses jarak jauh dan manajemen sistem komputer. Ini memungkinkan pengguna atau administrator sistem untuk melakukan berbagai tugas, seperti mengakses shell jarak jauh, mentransfer berkas, dan mengelola perangkat jarak jauh, dengan aman dan terenkripsi.
 #### Salah satu alasan utama penciptaan SSH adalah bahwa Telnet tidak menyediakan enkripsi data yang dikirimkan antara klien dan server. Ini berarti bahwa jika seseorang memiliki akses ke jaringan yang sama, mereka dapat dengan mudah menangkap data sensitif, seperti nama pengguna dan kata sandi, yang dikirimkan melalui Telnet.
