@@ -1,5 +1,5 @@
-![soal cisco](https://github.com/qiau/Konsep-Jaringan/blob/main/Minggu%207/Packet%20Tracer/assets/tugas.jpeg)
 - # _CISCO PACKET TRACER_
+![soal cisco](https://github.com/qiau/Konsep-Jaringan/blob/main/Minggu%207/Packet%20Tracer/assets/tugas.jpeg)
 ##### Sebuah topologi jaringan yang telah dirancang dan dikonfigurasi dalam lingkungan simulasi menggunakan Cisco Packet Tracer. Topologi jaringan adalah susunan fisik dan logis dari perangkat jaringan yang terinterkoneksi, yang berfungsi sebagai kerangka kerja untuk pertukaran data dan sumber daya di dalam jaringan. Dalam konteks ini, kita akan menjelajahi implementasi konkret dari topologi yang melibatkan dua router, dua switch, dan empat komputer (PC).
 ##### Untuk menjalankan agar jaringan berfungsi, kita perlu mengonfigurasi router dan pc dengan benar. Berikut adalah langkah-langkahnya:
 
