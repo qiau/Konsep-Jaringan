@@ -22,19 +22,30 @@
 
 ![ping](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/pingminggu%207.png)
 
-- Ping detik.com [203.190.242.211] with 32 bytes of data: Ini adalah baris yang memberikan informasi tentang apa yang akan di-ping. Perintah akan mengirim paket data ke alamat IP 203.190.242.211, yang sesuai dengan nama domain "detik.com." Setiap paket data memiliki ukuran 32 byte.
+- "Ping detik.com [203.190.242.211] with 32 bytes of data": Adalah baris yang memberikan informasi tentang apa yang akan di-ping. Perintah akan mengirim paket data ke alamat IP 203.190.242.211, yang sesuai dengan nama domain "detik.com." Setiap paket data memiliki ukuran 32 byte.
 
-- Reply from 203.190.242.211: bytes=32 time=79ms TTL=53: Ini adalah hasil dari ping yang pertama. Ini menunjukkan bahwa paket data telah dikirimkan dengan sukses ke alamat IP 203.190.242.211, dan Anda menerima balasan. Elemen-elemen berikut ini menjelaskan detailnya:
+- "Reply from 203.190.242.211": bytes=32 time=79ms TTL=53: Adalah hasil dari ping yang pertama. Ini menunjukkan bahwa paket data telah dikirimkan dengan sukses ke alamat IP 203.190.242.211, dan Anda menerima balasan. Elemen-elemen berikut ini menjelaskan detailnya:
 
-- Reply from 203.190.242.211: Ini menunjukkan bahwa Anda menerima respons dari alamat IP tujuan. "bytes=32": Ini adalah ukuran paket data yang dikirimkan, yaitu 32 byte. "time=60ms": Ini adalah waktu yang diperlukan untuk paket data pergi ke tujuan dan kembali, diukur dalam milidetik (ms). TTL=53": Ini adalah Time-to-Live (TTL) atau batasan maksimum perjalanan paket data dalam jaringan. TTL ini berkurang setiap kali paket data melewati hop dalam jaringan.
+- "Reply from 203.190.242.211": Menunjukkan bahwa Anda menerima respons dari alamat IP tujuan.
 
-- Ping statistics for 203.190.242.211: Ini adalah ringkasan statistik dari ping yang telah dilakukan.
+- "bytes=32": Ini adalah ukuran paket data yang dikirimkan, yaitu 32 byte.
 
-- "Packets: Sent = 4": Ini menunjukkan bahwa Anda telah mengirimkan 4 paket data. "Received = 4": Ini menunjukkan bahwa Anda telah menerima respons dari semua 4 paket data yang dikirimkan. "Lost = 0 (0% loss)": Tidak ada paket data yang hilang, yang berarti tidak ada paket data yang hilang dalam perjalanan.
+- "time=60ms": Ini adalah waktu yang diperlukan untuk paket data pergi ke tujuan dan kembali, diukur dalam milidetik (ms).
+
+- "TTL=53": Ini adalah Time-to-Live (TTL) atau batasan maksimum perjalanan paket data dalam jaringan. TTL ini berkurang setiap kali paket data melewati hop dalam jaringan.
+
+- "Ping statistics for 203.190.242.211": Adalah ringkasan statistik dari ping yang telah dilakukan.
+
+- "Packets: Sent = 4": Menunjukkan bahwa Anda telah mengirimkan 4 paket data.
+  
+- "Received = 4": Ini menunjukkan bahwa Anda telah menerima respons dari semua 4 paket data yang dikirimkan.
+  
+- "Lost = 0 (0% loss)": Tidak ada paket data yang hilang, yang berarti tidak ada paket data yang hilang dalam perjalanan.
 
 - Approximate round trip times in milli-seconds:
   "Minimum = 38ms": Ini adalah waktu tercepat (minimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
-  "Maximum = 79ms": Ini adalah waktu terlama (maksimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik. "Average = 60ms": Ini adalah rata-rata waktu yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
+  "Maximum = 79ms": Ini adalah waktu terlama (maksimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
+  "Average = 60ms": Ini adalah rata-rata waktu yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
 
 - # _TRACEROUTE_
 
@@ -60,27 +71,25 @@
 
 ![tracert](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/tracertminggu7.png)
 
-- "tracert www.detik.com": Ini adalah perintah yang Anda jalankan untuk melacak rute jaringan ke situs web "www.detik.com" yang resolusi IP-nya adalah 103.49.221.211. Perintah ini akan mengungkapkan semua hop jaringan antara komputer Anda dan server tujuan.
+- "tracert www.detik.com": Ini adalah perintah yang Anda jalankan untuk melacak rute jaringan ke situs web "www.detik.com" yang resolusi IP-nya adalah 203.190.242.211. Perintah ini akan mengungkapkan semua hop jaringan antara komputer Anda dan server tujuan.
 
-- "Tracing route to detik.com [103.49.221.211]": Output ini menunjukkan bahwa perintah "tracert" sedang melakukan pelacakan rute ke alamat IP 103.49.221.211, yang merupakan alamat IP untuk "www.detik.com."
+- "Tracing route to detik.com [203.190.242.211]": Output ini menunjukkan bahwa perintah "tracert" sedang melakukan pelacakan rute ke alamat IP 203.190.242.211 yang merupakan alamat IP untuk "www.detik.com."
 
 - "over a maximum of 30 hops": Ini menunjukkan bahwa perintah akan melacak hingga 30 hop (atau langkah) dalam rute jaringan, maksimum.
 
 - Kemudian, daftar hasil "tracert" dimulai:
 
-> Hop 1: Ini adalah langkah pertama dalam rute, yang merupakan router di dalam jaringan lokal Anda dengan alamat IP 192.168.100.1.
+> Hop 1: Ini adalah langkah pertama dalam rute, yang merupakan router di dalam jaringan lokal Anda dengan alamat IP 192.168.43.1.
 
-> Hop 2: Ini adalah hop kedua, dan tampaknya ada beberapa latency (keterlambatan) dalam komunikasi dengan alamat IP 10.9.0.1. Kemungkinan ini adalah router berikutnya dalam rute.
+> Hop 2 - 4: Ada beberapa latency (keterlambatan) dalam komunikasi dengan alamat IP 10.198.149.250 Kemungkinan ini adalah router berikutnya dalam rute.
 
-> Hop 3: Ini adalah hop ketiga, dengan alamat IP 103.94.168.14, yang mungkin merupakan bagian dari jaringan penyedia layanan internet Anda.
+> Hop 5-8: Ini adalah hop yang merupakan bagian dari jaringan penyedia layanan internet Anda.
 
-> Hop 4: Ini adalah hop keempat, dengan alamat IP 103.94.168.233, yang juga merupakan bagian dari jaringan penyedia layanan internet Anda.
+> Hop 9: Hop kesembilan menunjukkan "Request timed out," yang berarti tidak ada respons dari hop ini. Ini bisa terjadi karena hop ini diatur untuk tidak merespons permintaan ICMP, atau ada masalah konektivitas di sana.
 
-> Hop 5: Hop kelima menunjukkan "Request timed out," yang berarti tidak ada respons dari hop ini. Ini bisa terjadi karena hop ini diatur untuk tidak merespons permintaan ICMP, atau ada masalah konektivitas di sana.
+> Hop 10: Hop kesepuluh memiliki alamat IP 218.100.36.9, adalah salah satu hop dalam jaringan penyedia layanan internet atau server tujuan.
 
-> Hop 6: Hop keenam memiliki alamat IP 218.100.36.9, yang kemungkinan adalah salah satu hop dalam jaringan penyedia layanan internet atau server tujuan.
-
-> Hop 7: Hop ketujuh menunjukkan alamat IP 103.49.221.211, yang sesuai dengan tujuan akhir, yaitu "s211-cast-211-221-49-103.detik.com."
+> Hop 11: Hop terakhir menunjukkan alamat IP 203.190.242.211, yang sesuai dengan tujuan akhir, yaitu "s2-211-242-190-203.detik.com."
 
 Berikut penjelasan untuk setiap kolom dalam perintah tracert:
 
