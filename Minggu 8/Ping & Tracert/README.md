@@ -1,6 +1,6 @@
 - # _PING_
 
-##### Perintah ping bekerja dengan cara mengirim paket ke alamat yang ditentukan, pengirim paket menunggu balasan dari alamat tersebut. Perjalanan paket dari mulai dikirim dan balik lagi ke pengirim memerlukan waktu. Makin cepat paket kembali ke pengirim, maka makin bagus koneksi antara pengirim dan tujuan. Bila melakukan ping ke 2 alamat tujuan yang berbeda dengan memakai jaringan yang sama, bisa disimpulkan letak server dari 2 alamat tujuan tersebut.
+##### Ping bekerja dengan cara mengirim paket ke alamat yang ditentukan, pengirim paket menunggu balasan dari alamat tersebut. Perjalanan paket dari mulai dikirim dan balik lagi ke pengirim memerlukan waktu. Makin bagus koneksi antara pengirim dan tujuan, semakin cepat paket kembali ke pengirim. Bila melakukan ping ke 2 alamat tujuan yang berbeda dengan memakai jaringan yang sama, maka bisa disimpulkan letak server dari 2 alamat tujuan tersebut.
 
 ##### Berikut adalah elemen-elemen utama yang Anda lihat saat menjalankan tes ping di cmd:
 
@@ -18,28 +18,23 @@
 
 7. Keterangan Kesalahan: Jika ada masalah dengan koneksi, Anda mungkin akan melihat keterangan kesalahan seperti "Request Timed Out" (Permintaan Waktu Habis), yang menunjukkan bahwa paket data tidak berhasil sampai ke tujuan dalam batas waktu yang ditentukan.
 
-#### Percobaan ping www.detik.com
+### - Percobaan ping www.detik.com
 
-<div align="center">
-    <img src="assets/ping1.png" alt="Tes ping" width="70%">
-    <p><strong>Gambar:</strong> Ping ke www.detik.com</p>
-</div>
+![ping](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/pingminggu%207.png)
 
-Analisa :
+- Ping detik.com [203.190.242.211] with 32 bytes of data: Ini adalah baris yang memberikan informasi tentang apa yang akan di-ping. Perintah akan mengirim paket data ke alamat IP 203.190.242.211, yang sesuai dengan nama domain "detik.com." Setiap paket data memiliki ukuran 32 byte.
 
-- Pinging detik.com [103.49.221.211] with 32 bytes of data: Ini adalah baris yang memberikan informasi tentang apa yang akan di-ping. Perintah akan mengirim paket data ke alamat IP 103.49.221.211, yang sesuai dengan nama domain "detik.com." Setiap paket data memiliki ukuran 32 byte.
+- Reply from 203.190.242.211: bytes=32 time=79ms TTL=53: Ini adalah hasil dari ping yang pertama. Ini menunjukkan bahwa paket data telah dikirimkan dengan sukses ke alamat IP 203.190.242.211, dan Anda menerima balasan. Elemen-elemen berikut ini menjelaskan detailnya:
 
-- Reply from 103.49.221.211: bytes=32 time=102ms TTL=58: Ini adalah hasil dari ping yang pertama. Ini menunjukkan bahwa paket data telah dikirimkan dengan sukses ke alamat IP 103.49.221.211, dan Anda menerima balasan. Elemen-elemen berikut ini menjelaskan detailnya:
+- Reply from 203.190.242.211: Ini menunjukkan bahwa Anda menerima respons dari alamat IP tujuan. "bytes=32": Ini adalah ukuran paket data yang dikirimkan, yaitu 32 byte. "time=60ms": Ini adalah waktu yang diperlukan untuk paket data pergi ke tujuan dan kembali, diukur dalam milidetik (ms). TTL=53": Ini adalah Time-to-Live (TTL) atau batasan maksimum perjalanan paket data dalam jaringan. TTL ini berkurang setiap kali paket data melewati hop dalam jaringan.
 
-- "Reply from 103.49.221.211": Ini menunjukkan bahwa Anda menerima respons dari alamat IP tujuan. "bytes=32": Ini adalah ukuran paket data yang dikirimkan, yaitu 32 byte. "time=102ms": Ini adalah waktu yang diperlukan untuk paket data pergi ke tujuan dan kembali, diukur dalam milidetik (ms). TTL=58": Ini adalah Time-to-Live (TTL) atau batasan maksimum perjalanan paket data dalam jaringan. TTL ini berkurang setiap kali paket data melewati hop dalam jaringan.
-
-- Ping statistics for 103.49.221.211: Ini adalah ringkasan statistik dari ping yang telah dilakukan.
+- Ping statistics for 203.190.242.211: Ini adalah ringkasan statistik dari ping yang telah dilakukan.
 
 - "Packets: Sent = 4": Ini menunjukkan bahwa Anda telah mengirimkan 4 paket data. "Received = 4": Ini menunjukkan bahwa Anda telah menerima respons dari semua 4 paket data yang dikirimkan. "Lost = 0 (0% loss)": Tidak ada paket data yang hilang, yang berarti tidak ada paket data yang hilang dalam perjalanan.
 
 - Approximate round trip times in milli-seconds:
-  "Minimum = 102ms": Ini adalah waktu tercepat (minimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
-  "Maximum = 152ms": Ini adalah waktu terlama (maksimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik. "Average = 124ms": Ini adalah rata-rata waktu yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
+  "Minimum = 38ms": Ini adalah waktu tercepat (minimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
+  "Maximum = 79ms": Ini adalah waktu terlama (maksimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik. "Average = 60ms": Ini adalah rata-rata waktu yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
 
 - # _TRACEROUTE_
 
@@ -61,14 +56,9 @@ Analisa :
 
 7. Keterangan Kesalahan: Jika ada hop yang tidak merespons atau mengalami masalah, Anda mungkin akan melihat keterangan kesalahan seperti "Request Timed Out" (Permintaan Waktu Habis).
 
-#### Percobaan tracert www.detik.com
+### - Percobaan tracert www.detik.com
 
-<div align="center">
-    <img src="assets/tracert1.png" alt="Traceroute" width="70%">
-    <p><strong>Gambar:</strong> Traceroute ke www.detik.com</p>
-</div>
-
-Analisa :
+![tracert](https://github.com/qiau/Konsep-Jaringan/blob/main/assets/tracertminggu7.png)
 
 - "tracert www.detik.com": Ini adalah perintah yang Anda jalankan untuk melacak rute jaringan ke situs web "www.detik.com" yang resolusi IP-nya adalah 103.49.221.211. Perintah ini akan mengungkapkan semua hop jaringan antara komputer Anda dan server tujuan.
 
