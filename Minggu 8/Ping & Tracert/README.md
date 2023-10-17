@@ -1,5 +1,4 @@
 - # _PING_
-
 ##### Ping bekerja dengan cara mengirim paket ke alamat yang ditentukan, pengirim paket menunggu balasan dari alamat tersebut. Perjalanan paket dari mulai dikirim dan balik lagi ke pengirim memerlukan waktu. Makin bagus koneksi antara pengirim dan tujuan, semakin cepat paket kembali ke pengirim. Bila melakukan ping ke 2 alamat tujuan yang berbeda dengan memakai jaringan yang sama, maka bisa disimpulkan letak server dari 2 alamat tujuan tersebut.
 
 ##### Berikut adalah elemen-elemen utama yang Anda lihat saat menjalankan tes ping di cmd:
@@ -43,12 +42,11 @@
 - "Lost = 0 (0% loss)": Tidak ada paket data yang hilang, yang berarti tidak ada paket data yang hilang dalam perjalanan.
 
 - Approximate round trip times in milli-seconds:
-  "Minimum = 38ms": Ini adalah waktu tercepat (minimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
-  "Maximum = 79ms": Ini adalah waktu terlama (maksimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
-  "Average = 60ms": Ini adalah rata-rata waktu yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
-
+#####  "Minimum = 38ms": Ini adalah waktu tercepat (minimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
+#####  "Maximum = 79ms": Ini adalah waktu terlama (maksimum) yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
+#####  "Average = 60ms": Ini adalah rata-rata waktu yang diperlukan untuk pergi dan kembali dari tujuan, diukur dalam milidetik.
+#
 - # _TRACEROUTE_
-
 ##### Traceroute (Tracert) adalah perintah untuk menunjukkan rute yang dilewati paket untuk mencapai tujuan. Ini dilakukan dengan mengirim pesan Internet Control Message Protocol (ICMP) Echo Request Ke tujuan dengan nilai Time to Live yang semakin meningkat. Rute yang ditampilkan adalah daftar interface router (yang paling dekat dengan host) yang terdapat pada jalur antara host dan tujuan.
 
 ##### Berikut adalah elemen-elemen utama yang Anda lihat saat menjalankan tes tracert di cmd:
