@@ -1,13 +1,13 @@
 - # _SIMULASI JARINGAN MENGGUNAKAN CISCO PACKET TRACER_
 
-#### Skenario yang digunakan :
+### Skenario yang digunakan :
 1. Ping dari PC 0 (192.168.1.2) ke PC 1 (192.168.1.3) dengan broadcast
 2. Ping dari PC 0 (192.168.1.2) ke PC 1 (192.168.1.3)
 3. Ping dari PC 0 (192.168.1.2) ke PC 2 (192.168.6.2)
 4. Ping dari PC 0 (192.168.1.2) ke PC 1 (192.168.6.3)
 5. Ping dari PC 0 (192.168.1.2) ke PC 1 (192.168.1.3) Menggunakan PT-Hub
 
-#### Persiapan:
+### Persiapan:
 - ##### Pertama-tama membuat desain rangkaian jaringan dengan 1 Router-PT, 2 Switch, dan 4 PC sehingga menjadi tampilan sebagai berikut :
     <img src="assets/rangkaian.png">
 - ##### Konfigurasi router dengan mengubah IP Fast Ethernet menjadi seperti berikut
@@ -21,7 +21,7 @@
 - ##### Tambahkan RIP routing supaya bisa melakukan <i>ping</i> dengan PC yang berbeda switch
     <img src="assets/RIP.png">
 
-#### Percobaan:
+### Percobaan:
 
 ##### 1. Ping dari PC 0 ke PC 1 (broadcast)
 Membuka command prompt pada <strong>PC 0</strong>, dan melakukan ping ke address <strong>PC 1</strong><br>
