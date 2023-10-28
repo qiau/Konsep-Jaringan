@@ -1,6 +1,7 @@
-**<h1 style="font-family:bahnschrift;">~ PENDAHULUAN</h1>**
 
-***<h2 style="font-family:bahnschrift;">1. Mikrotik</h2>***
+_**<h1 style="font-family:bahnschrift;">~ PENDAHULUAN</h1>**_
+
+***<h2 style="font-family:bahnschrift;">Mikrotik</h2>***
 
 ***<h4 style="font-family:bahnschrift;">1.1.Pengertian Mikrotik</h4>***
 > <div class ="isi" style="font-family:bahnschrift;"> Mirkrotik ialah sistem operasi yang berbasis perangkat lunak (software) yang dipergunakan untuk menjadikan komputer sebagai router sebuah jaringan. Mikrotik juga menggunakan sistem operasi berbasis Linux dan menjadi dasar network router. Sistem operasi (OS) ini sangat cocok untuk membangun administrasi jaringan komputer yang berskala kecil hingga besar.
@@ -28,89 +29,105 @@
 - <div class ="isi" style="font-family:bahnschrift;"> Sebagai <i>Internet Gateway</i> pada jaringan lokal
 - <div class ="isi" style="font-family:bahnschrift;"> Sebagai penghubung antar jaringan, atau routing
 - <div class ="isi" style="font-family:bahnschrift;"> Sebagai <i>Access point</i>
-
-**<h1 style="font-family:bahnschrift;">~ PERCOBAAN</h1>**
 #
-- ## _1. WinBox_
+_**<h1 style="font-family:bahnschrift;">~ PERCOBAAN</h1>**_
 
-### 1. Mengisi Address pada Address List
+***<h2 style="font-family:bahnschrift;">1. Mengatur Jaringan lokal menggunakan Winbox</h2>***
+
+***<h3 style="font-family:bahnschrift;">1.1. Mengisi Address pada Address List</h3>***
+
 <img src="assets/addAdrress.png"> <br>
-- #### - Isi address untuk router sesuai nomor kelompok
-<img src="assets/addAddress1.png"> <br>
-##### Kelompok 7 maka address kita isi dengan 10.252.108.17/24, network (10.252.108.0), dan interface ether1.
-- #### - Isi IP address untuk tiap PC kelompok 7
-<img src="assets/addAddress2.png"> <br>
-##### Address kita isi dengan 192.168.7.1/24, network (192.168.7.0), dan interface bridge1.
-- #### - Tampilan setelah terisi
-<img src="assets/addAddress3.png"> <br>
-#
-### 2. Mengisi Route pada Route List
-<img src="assets/addRoute.png"> <br>
-- #### - Tambahkan Route baru 
-<img src="assets/AddRoute2.png"> <br>
-##### Dst. Address kita isi dengan 192.168.1.0 dengan Gateway 10.252.108.11.
-- #### - Tambahkan route untuk semua kelompok (1-10)
-<img src="assets/AddRoute3.png"> <br>
-##### Lakukan cara yang sama untuk menambahkan route baru setiap kelompok.
-#
-### 3. Menambahkan Bridge & Ports
-<img src="assets/bukabridge.jpg"> <br>
-- #### - Tambahkan interface
-<img src="assets/bridge1.png"> <br>
-##### Isi Name dengan bridge1.
-- #### - Tambahkan Ports (untuk tiap kelompok)
-<img src="assets/ether.png"> <br>
-<img src="assets/ether2.png"> <br>
-#
-### 4. Menambahkan DHCP Server
-<img src="assets/DHCP1.png"> <br>
-<img src="assets/DHCP2.png"> <br>
-<img src="assets/DHCP3.png"> <br>
-<img src="assets/DHCP4.png"> <br>
-<img src="assets/DHCP5.png"> <br>
-<img src="assets/DHCP6.png"> <br>
-<img src="assets/DCHP7.png"> <br>
-#
-### 5. Melakukan PING antar kelompok
-- #### - Percobaan terhadap kelompok 1
-<img src="assets/Ping1.png"> <br>
-##### Isi Name dengan bridge1.
-- #### - Percobaan terhadap kelompok 2
-<img src="assets/ping2.png"> <br>
 
-### Proses ping dengan kelompok 1 dan 2 berhasil, hal yang sama dapat kita lakukan dengan kelompok lain (kelompok 3-10).
-#
-- ## _2. Topologi dalam Cisco Packet Tracer_
+- <div class ="isi" style="font-family:bahnschrift;"> Isi address untuk router sesuai nomor kelompok<br>
+  <img src="assets/addAddress1.png"> <br>
+
+  ><div class ="isi" style="font-family:bahnschrift;">  Kelompok 7 maka address kita isi dengan 10.252.108.17/24, network (10.252.108.0), dan interface ether1.
+- <div class ="isi" style="font-family:bahnschrift;"> Isi IP address untuk tiap PC kelompok 7<br>
+
+  <img src="assets/addAddress2.png"> <br>
+
+  ><div class ="isi" style="font-family:bahnschrift;">  Address kita isi dengan 192.168.7.1/24, network (192.168.7.0), dan interface bridge1.
+  <div class ="isi" style="font-family:bahnschrift;"> Tampilan setelah terisi<br>
+  <img src="assets/addAddress3.png"> <br>
+
+***<h3 style="font-family:bahnschrift;">1.2. Mengisi Route pada Route List</h3>***
+
+<img src="assets/addRoute.png"> <br>
+
+  - <div class ="isi" style="font-family:bahnschrift;"> Tambahkan Route baru   
+    <img src="assets/AddRoute2.png"> <br>
+
+    ><div class ="isi" style="font-family:bahnschrift;">  Dst. Address kita isi dengan 192.168.1.0 dengan Gateway 10.252.108.11.
+
+  - <div class ="isi" style="font-family:bahnschrift;"> Tambahkan route untuk semua kelompok (1-10)
+    <img src="assets/AddRoute3.png"> <br>
+
+    > Lakukan cara yang sama untuk menambahkan route baru setiap kelompok.
+
+***<h3 style="font-family:bahnschrift;">1.3. Menambahkan Bridge & Ports</h3>***
+
+<img src="assets/bukabridge.jpg"> <br>
+
+- <div class ="isi" style="font-family:bahnschrift;">  Tambahkan interface
+
+  <img src="assets/bridge1.png"> <br>
+  ><div class ="isi" style="font-family:bahnschrift;">  Isi Name dengan bridge1.
+- <div class ="isi" style="font-family:bahnschrift;">Tambahkan Ports (untuk tiap kelompok)
+  <img src="assets/ether.png"> <br>
+  <img src="assets/ether2.png"> <br>
+
+***<h2 style="font-family:bahnschrift;">1.4. Melakukan PING antar kelompok</h2>***
+
+- <div class ="isi" style="font-family:bahnschrift;"> Percobaan terhadap kelompok 1
+  <img src="assets/Ping1.png"> <br>
+
+  > <div class ="isi" style="font-family:bahnschrift;"> Isi Name dengan bridge1.
+- <div class ="isi" style="font-family:bahnschrift;"> Percobaan terhadap kelompok 2<br>
+  <img src="assets/ping2.png"> <br>
+
+  > Proses ping dengan kelompok 1 dan 2 berhasil, hal yang sama dapat kita lakukan dengan kelompok lain (kelompok 3-10).
+
+***<h2 style="font-family:bahnschrift;">2. Mengatur Topologi dalam Cisco Packet Tracer</h2>***
+<div class ="isi" style="font-family:bahnschrift;"> Model dari topologi dibentuk sedemikian rupa sehingga menjadi sebagai berikut : <br>
 <img src="assets/topologi10.jpeg"> <br>
 
-### 1. Konfigurasi PC
-- #### - Mengatur Default Gateway pada tiap PC sesuai kelompok
-#### Kelompok 7
-<img src="assets/PC_kel7.png"> <br>
-#### Kelompok 8
-<img src="assets/PC_kel8.png"> <br>
-- #### - Mengisi IP address pada tiap PC sesuai kelompok
-#### Kelompok 7
-<img src="assets/PC_kel7.1.png"> <br>
-<img src="assets/PC_kel7.2.png"> <br>
-<img src="assets/PC_kel7.3.png"> <br>
-#### Kelompok 8
-<img src="assets/PC_kel8.1.png"> <br>
-<img src="assets/PC_kel8.2.png"> <br>
-<img src="assets/PC_kel8.3.png"> <br>
-#
-### 2. Konfigurasi sub-Router
-- #### - Mengatur IP dan Subnet pada FastEthernet yang terhubung ke tiap PC (3 pc)
-#### Kelompok 7
-<img src="assets/IP_kel7.1.png"> <br>
-#### Kelompok 8
-<img src="assets/IP_kel8.1.png"> <br>
-- #### - Mengatur IP dan Subnet pada FastEthernet yang terhubung ke Router Utama
-#### Kelompok 7
-<img src="assets/IP_kel7.2.png"> <br>
-<img src="assets/IP_kel7.3.png"> <br>
-#### Kelompok 8
-<img src="assets/IP_kel8.2.png"> <br>
-<img src="assets/IP_kel8.3.png"> <br>
+<div class ="isi" style="font-family:bahnschrift;">  Kemudian, mulai konfigurasi PC dan router dengan langkah sebagai berikut : 
 
-### Demikian Laporan Percobaan dari kelompok 7, dengan menggunakan winbox dan juga Cisco Packet Tracer
+***<h4 style="font-family:bahnschrift;">1. Konfigurasi PC</h4>***
+- <div class ="isi" style="font-family:bahnschrift;"> Mengatur Default Gateway pada tiap PC sesuai kelompok<br>
+
+  - Kelompok 7<br>
+  <img src="assets/PC_kel7.png"> <br><br>
+
+  - <div class ="isi" style="font-family:bahnschrift;">  Kelompok 8<br>
+    <img src="assets/PC_kel8.png"> <br><br>
+
+- <div class ="isi" style="font-family:bahnschrift;"> Mengisi IP address pada tiap PC sesuai kelompok<br>
+  
+  - Kelompok 7<br>
+    <img src="assets/PC_kel7.1.png"> <br>
+    <img src="assets/PC_kel7.2.png"> <br>
+    <img src="assets/PC_kel7.3.png"> <br><br>
+
+  -  Kelompok 8<br>
+    <img src="assets/PC_kel8.1.png"> <br>
+    <img src="assets/PC_kel8.2.png"> <br>
+    <img src="assets/PC_kel8.3.png"> <br><br>
+
+***<h4 style="font-family:bahnschrift;">2. Konfigurasi sub-Router</h4>*** 
+- <div class ="isi" style="font-family:bahnschrift;"> Mengatur IP dan Subnet pada FastEthernet yang terhubung ke tiap PC (3 pc)<br>
+  
+  - Kelompok 7
+    <img src="assets/IP_kel7.1.png"> <br><br>
+
+  - Kelompok 8
+    <img src="assets/IP_kel8.1.png"> <br>
+- <div class ="isi" style="font-family:bahnschrift;"> Mengatur IP dan Subnet pada FastEthernet yang terhubung ke Router Utama<br>
+  
+  - Kelompok 7
+    <img src="assets/IP_kel7.2.png"> <br>
+    <img src="assets/IP_kel7.3.png"> <br><br>
+
+  - Kelompok 8
+    <img src="assets/IP_kel8.2.png"> <br>
+    <img src="assets/IP_kel8.3.png"> <br>
