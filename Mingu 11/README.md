@@ -17,7 +17,7 @@ _**<h1 style="font-family:bahnschrift;">ROUTING</h1>**_
 - <div class ="isi" style="font-family:bahnschrift;">Protokol routing mengatur router-router sehingga dapat berkomunikasi satu dengan yang lain dan saling memberikan informasi satu dengan yang lain dan saling memberikan informasi routing yang dapat mengubah isi forwarding table, tergantung keadaan jaringannya.
 - <div class ="isi" style="font-family:bahnschrift;"> Karena konfigurasi disetting secara otomatis, maka administrator tidak perlu mengubah secara manual jika ada perubahan, dan lebih cocok untk digunakan untuk jaringan yang luas.
 
-**<h1 style="font-family:bahnschrift;">ROUTER</h1>**
+_**<h1 style="font-family:bahnschrift;">ROUTER</h1>**_
 <div class ="isi" style="font-family:bahnschrift;">Ketika routing tentu saja kita memerlukan router. Router sendiri memiliki beberapa jenis, beberapa contohnya yakni Edge Router dan Core Router
 
 ***<h4 style="font-family:bahnschrift;">1. Edge Router</h4>*** 
@@ -26,4 +26,4 @@ _**<h1 style="font-family:bahnschrift;">ROUTING</h1>**_
 ***<h4 style="font-family:bahnschrift;">2. Core Router</h4>*** 
 > <div class ="isi" style="font-family:bahnschrift;">Digunakan untuk menghubungkan berbagai jaringan dalam sebuah organisasi. Core router bertanggung jawab untuk merutekan lalu lintas data antara jaringan-jaringan tersebut dengan efisiensi dan kinerja yang tinggi. Core router juga biasanya menangani fungsi-fungsi jaringan yang kompleks, seperti load balancing dan traffic shaping
 
-**<h1 style="font-family:bahnschrift;">PERCOBAAN</h1>**
+_**<h1 style="font-family:bahnschrift;">PERCOBAAN</h1>**_
