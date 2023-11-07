@@ -31,5 +31,5 @@ _**<h1 style="font-family:bahnschrift;">Gambar Physical & Logical</h1>**_
 <img src="assets/logical.png"><br>
 #
 _**<h1 style="font-family:bahnschrift;">Routing Table</h1>**_
-<img src="assets/routing table.png"><br>
+<img src="assets/route print.png"><br>
 #
