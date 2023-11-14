@@ -28,7 +28,7 @@ _**<h1 style="font-family:bahnschrift;">Ping antar PC</h1>**_
 #
 
 _**<h1 style="font-family:bahnschrift;">Gambar Physical & Logical</h1>**_
-<img src="assets/pis.png"><br>
+<img src="assets/pis.png">
 <h3 style="font-family:bahnschrift;">Keterangan</h3>
 - <div class ="isi" style="font-family:bahnschrift;"><strong>Switch untuk DCHP </strong> menggunakan tipe MikroTik Smart Cloud Switch CSS326-24G-2S+RM
 - <div class ="isi" style="font-family:bahnschrift;"><strong>RouterBoard</strong> menggunakan Tp-Link TL-SG1016D
@@ -41,9 +41,10 @@ _**<h1 style="font-family:bahnschrift;">Gambar Physical & Logical</h1>**_
 - <div class ="isi" style="font-family:bahnschrift;"><strong>kabel ETH6 ke Hub </strong> Menggunakan kabel UTP CAT6
 - <div class ="isi" style="font-family:bahnschrift;"><strong>kabel Hub 1 ke Laptop 0 </strong> Menggunakan kabel UTP CAT5E
 - <div class ="isi" style="font-family:bahnschrift;"><strong>kabel Hub 2 ke Laptop 1 </strong> Menggunakan kabel UTP CAT5E
-- <div class ="isi" style="font-family:bahnschrift;"><strong>kabel Hub 3 ke Laptop 2 </strong> Menggunakan kabel UTP CAT5E
-<img src="assets/logical.png"><br>
-#
+- <div class ="isi" style="font-family:bahnschrift;"><strong>kabel Hub 3 ke Laptop 2 </strong> Menggunakan kabel UTP CAT5E 
+
+<br><img src="assets/logical.png"><br>
+
 _**<h1 style="font-family:bahnschrift;">Routing Table</h1>**_
 <img src="assets/route print.png"><br>
 #
