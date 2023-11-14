@@ -17,7 +17,7 @@
 ><div class ="isi" style="font-family:bahnschrift;"> Melakukan bandwith test dengan klik tools > Bandwith Test
 <img src="assets/bandwith4.jpg"><br><br>
 
-><div class ="isi" style="font-family:bahnschrift;">Kemudian akan muncul tampilan berikut, dan klik "Start untuk memulai pengecekan
+><div class ="isi" style="font-family:bahnschrift;">Kemudian akan muncul tampilan berikut, isi Test To dengan gateway dari kelompok 8 dan klik "Start untuk memulai pengecekan
 <img src="assets/bandwith5.png"><br><br>
 
 ><div class ="isi" style="font-family:bahnschrift;">Setelah selesai, akan muncul data seperti berikut
