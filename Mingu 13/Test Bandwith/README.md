@@ -8,7 +8,7 @@
 ### Pengertian
 #### Bandwidth adalah istilah yang digunakan untuk mengukur seberapa besar volume data yang dapat ditransfer melalui suatu saluran komunikasi dalam suatu periode waktu tertentu. Bandwidth diukur dalam bit per detik (bps), kilobit per detik (kbps), megabit per detik (Mbps), atau gigabit per detik (Gbps), tergantung pada seberapa besar kapasitas transfer data yang dibutuhkan. 
 #
-### Melakukan pengetesan Bandwith ke fast.com
+### Melakukan pengetesan Bandwith menggunakan fast.com
 ><div class ="isi" style="font-family:bahnschrift;">Dengan menggunakan Ethernet yang disambungkan ke PC mahasiswa, didapatkan kecepatan sebagai berikut : <br>
 <img src="assets/bandwith1.png"><br>
 #
