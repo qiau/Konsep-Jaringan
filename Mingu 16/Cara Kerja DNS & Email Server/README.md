@@ -3,10 +3,9 @@
     Kelas		        : 2 D4 Teknik Informatika A
     Mata Kuliah	        : Konsep Jaringan
     Dosen Pengampu	        : Dr. Ferry Astika Saputra S.T., M.Sc
-    @qiau
     
 # -DNS SERVER
-
+@EzraSeptian
 ><div class ="isi" style="font-family:bahnschrift;"> DNS atau Domain Name System adalah sistem yang digunakan untuk menerjemahkan nama domain yang simpel diingat menjadi alamat IP numerik yang unik untuk mengidentifikasi alamat tujuan di internet (resolusi nama domain). <br> Jika diibaratkan seperti buku telepon internet. Bayangkan jika internet adalah kota besar dan setiap situs web atau alamat IP adalah nomor telepon. Namun, akan sulit jika menghafal nomor-nomor telepon tersebut, maka kita menggunakan buku telepon, dan DNS server berfungsi sebagai buku telepon ini di dunia internet.
  <br>
 
