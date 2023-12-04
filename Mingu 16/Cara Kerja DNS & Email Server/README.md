@@ -4,15 +4,21 @@
     Mata Kuliah	        : Konsep Jaringan
     Dosen Pengampu	        : Dr. Ferry Astika Saputra S.T., M.Sc
     
-# Aplikasi Chat ke Lintas Kelompok
+# DNS SERVER
 
-><div class ="isi" style="font-family:bahnschrift;"> Dengan menggunakan program dari pertemuan sebelumnya, yakni server.c dan client.c kami kelompok 7 melakukan chat dengan kelompok 8, dengan mengubah client.c menjadi berikut
+><div class ="isi" style="font-family:bahnschrift;"> DNS atau Domain Name System adalah sistem yang digunakan untuk menerjemahkan nama domain yang simpel diingat menjadi alamat IP numerik yang unik untuk mengidentifikasi alamat tujuan di internet (resolusi nama domain). <br> Jika diibaratkan seperti buku telepon internet. Bayangkan jika internet adalah kota besar dan setiap situs web atau alamat IP adalah nomor telepon. Namun, akan sulit jika menghafal nomor-nomor telepon tersebut, maka kita menggunakan buku telepon, dan DNS server berfungsi sebagai buku telepon ini di dunia internet.
+ <br>
+
+## CARA KERJA
+```server = gethostbyname("192.168.8.198");``` <br> <br>
+<img src="assets/dns.jpg"><br><br>
+
+# EMAIL SERVER
+
+><div class ="isi" style="font-family:bahnschrift;"> Email server adalah server komputer yang bertanggung jawab untuk mengelola pengiriman, penerimaan, dan penyimpanan email. Ada dua jenis server email utama: server pengiriman (SMTP) dan server penerima (POP3 atau IMAP). <br> Jika diibaratkan email server seperti kantor pos untuk internet, jika ingin mengirim surat kepada teman atau keluarga, maka kita akan membawanya ke kantor pos lokal lalu surat akan dikirimkan ke penerima. Email server berfungsi serupa di dunia internet.
  <br>
 
 ```server = gethostbyname("192.168.8.198");``` <br> <br>
-><div class ="isi" style="font-family:bahnschrift;"> Dari sisi client (Kelompok 7)
-<img src="assets/ping.jpg"><br><br>
-
 ><div class ="isi" style="font-family:bahnschrift;"> Dari sisi server (Kelompok 8)
-<img src="assets/ping2.png"><br>
+<img src="assets/mail.png"><br>
     
