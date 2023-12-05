@@ -1,7 +1,13 @@
-**<h1 style="font-family:bahnschrift;">Arsitektur Jaringan Komputer</h1>**
+    Nama		        : Raihan Eka Pramudya
+    NRP		        : 3122600011
+    Kelas		        : 2 D4 Teknik Informatika A
+    Mata Kuliah	        : Konsep Jaringan
+    Dosen Pengampu	        : Dr. Ferry Astika Saputra S.T., M.Sc
+    
+# -Arsitektur Jaringan Komputer
 > Merupakan konfigurasi jaringan yang mencakup perangkat keras, perangkat lunak, protokol komunikasi, aturan, dan standar yang digunakan untuk mengatur interaksi antara perangkat dalam jaringan komputer.
 
-**<h1 style="font-family:bahnschrift;">Arsitektur Jaringan Komputer yang Umum Dipakai di Kampus</h1>**
+# -Arsitektur yang Umum Dipakai di Kampus
 
 Kampus atau universitas biasanya menggunakan arsitektur jaringan *Campus Area Network (CAN)* dikarenakan cakupan jaringannya lebih luas dibandingkan *Local Area Network (LAN)* karena kampus atau universitas memiliki beberapa gedung-gedung dalam lokasi yang berbeda, namun dapat terhubung dalam jaringan yang sama.
 
